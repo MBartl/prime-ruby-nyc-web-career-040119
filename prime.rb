@@ -1,11 +1,12 @@
 def prime?(number)
   if number < 2
     return false
-  end
+  elsif number == 2
+    return true
+  else
   checks = (number/2).floor
   while checks > 1 do
     if number % checks == 0
-      return false
       break
     else
       return true

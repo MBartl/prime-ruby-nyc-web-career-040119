@@ -3,7 +3,7 @@ def prime?(number)
     return false
   end
   checks = (number/2).floor
-  loop do
+  while checks > 1 do
     if number % checks == 0
       return false
       break

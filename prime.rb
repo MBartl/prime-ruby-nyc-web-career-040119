@@ -6,11 +6,10 @@ def prime?(number)
   else
   check = (number/2).floor
   while check > 1 do
-    if number % checks == 0
-      break
-    else
-      return true
+    if number % check == 0
+      return false
     end
     check -= 1
   end
+  return true
 end

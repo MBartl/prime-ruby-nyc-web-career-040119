@@ -4,7 +4,7 @@ def prime?(number)
   elsif number == 2
     return true
   else
-  checks = (number/2).floor
+  check = (number/2).floor
   while checks > 1 do
     if number % checks == 0
       break

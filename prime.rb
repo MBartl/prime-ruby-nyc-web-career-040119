@@ -2,9 +2,9 @@ def prime?(number)
   if number < 2
     return false
   end
-  checks = number/2
+  checks = (number/2).floor
   loop do
-    temp = number
+    
     
   end
 end

@@ -6,5 +6,10 @@ def prime?(number)
     return true
   end
   if number > 2
-    if number % 2 || number % 3 || 
+    if number % 2 == 0 || number % 3 == 0
+      return false
+    else
+      return true
+    end
+  end
 end
